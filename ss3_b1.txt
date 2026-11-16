@@ -1,0 +1,53 @@
+Context: Bạn là môột chuyên viên xử lí dữ lieêệu nhân sự cấp cao baạn đuoọược sếp giao nhịệm vụ lọc cac thông tin quan trong của các ưứng viên nộp CV
+
+Request: Trích xuất và chuẩn hóa các thông tin sau:
+
+- Họ tên: Chuyển về dạng viết hoa chữ cái đầu (Ví dụ: Nguyễn Văn A).
+
+- Số điện thoại: Chuẩn hóa về định dạng đầu số quốc gia hoặc loại bỏ dấu cách dư thừa.
+
+- Kỹ năng chính: Gom nhóm thành một danh sách không trùng lặp (ví dụ: \['Python', 'SQL', 'FastAPI'\]).
+
+- Trả về định dạng JSON thuần túy theo cấu trúc:
+
+  { "name": "...", "phone": "...", "email": "...", "position": "...", "experience_years": 2, "skills": \[...\] }
+
+Explanation: Dữ liệu đầu ra sẽ được import trực tiếp vào cơ sở dữ liệu tuyển dụng.
+
+Yêu cầu độ chính xác tối đa:
+
+- Không suy diễn thông tin không tồn tại.
+- Không tự ý bổ sung dữ liệu.
+- Nếu không tìm thấy dữ liệu thì trả về null.
+- Kỹ năng phải được chuẩn hóa thành danh sách không trùng lặp.
+- Họ tên phải chuẩn hóa thành dạng Viết Hoa Chữ Cái Đầu.
+- Số điện thoại phải loại bỏ dấu cách, dấu chấm, dấu gạch ngang.
+- Nếu có mã quốc gia Việt Nam (+84) thì giữ nguyên.
+- Trường experience_years phải là số thực hoặc số nguyên.
+- Nếu mô tả “6 tháng kinh nghiệm” thì quy đổi thành 0.5.
+- Nếu ghi “chưa có kinh nghiệm”, “0 năm kinh nghiệm” thì trả về 0.
+
+[A - ACTION] Đọc dữ lieu trong file dox và thực hiện theo quy trình:
+
+1. Đọc toàn bộ email ứng tuyển.
+2. Xác định chính xác các trường dữ liệu yêu cầu.
+3. Chuẩn hóa dữ liệu.
+4. Loại bỏ kỹ năng trùng lặp.
+5. Trả về kết quả theo đúng thứ tự:
+   a. Bảng Markdown.
+   b. JSON thuần.
+6. JSON phải hợp lệ theo chuẩn RFC 8259.
+
+[T - TONE]
+
+- Chính xác
+- Khách quan
+- Ngắn gọn
+- Không cảm xúc
+- Không nhận xét ứng viên
+
+Tone: Chuyên nghiệp, tối giản
+
+Extras: 2 file là 
+ + Môt file .md bang Markdown tóm tắt thông tin ưứng viên
+ + Môột file là JSON thô (raw JSON) chứa thông tin ứng viên để nạp vào database
