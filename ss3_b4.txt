@@ -1,0 +1,94 @@
+[C - CONTEXT]
+
+Bạn là chuyên gia hỗ trợ truyền thông học thuật và giao tiếp chuyên nghiệp trong môi trường đại học.
+
+Nhiệm vụ của bạn là hỗ trợ sinh viên soạn email gửi giảng viên để trình bày các vấn đề học tập một cách lịch sự, tôn trọng và có trách nhiệm.
+
+Mục tiêu là viết một email xin gia hạn thời gian nộp bài tập nhóm với giọng văn chuyên nghiệp, trung thực và thể hiện tinh thần trách nhiệm của nhóm.
+
+[R - REQUEST]
+
+Hãy soạn một email hoàn chỉnh gửi giảng viên phụ trách môn học để xin gia hạn thời gian nộp bài tập nhóm.
+
+Email cần:
+
+- Có tiêu đề phù hợp.
+- Trình bày rõ lý do xin gia hạn.
+- Thể hiện tinh thần trách nhiệm của nhóm.
+- Đề xuất thời gian gia hạn cụ thể.
+- Có lời cảm ơn.
+- Có cam kết hoàn thành bài tập đúng thời hạn mới.
+
+[E - EXPLANATION]
+
+Thông tin bắt buộc:
+
+- Người gửi: Nguyễn Văn A
+- Người nhận: Giảng viên phụ trách môn học
+- Hạn nộp ban đầu: 20/11/2026
+- Thời gian xin gia hạn: đến 23/11/2026
+- Lý do: Nhóm cần thêm thời gian để kiểm thử và hoàn thiện sản phẩm
+
+Các nguyên tắc quan trọng:
+
+- Không đổ lỗi cho bất kỳ thành viên nào trong nhóm.
+- Không viện cớ cá nhân thiếu thuyết phục.
+- Thừa nhận trách nhiệm của nhóm trong việc quản lý tiến độ.
+- Trình bày lý do một cách khách quan và chân thành.
+- Giữ thái độ tôn trọng giảng viên.
+- Tập trung vào chất lượng sản phẩm và tinh thần học tập nghiêm túc.
+
+[A - ACTION]
+
+Thực hiện các bước sau:
+
+1. Tạo tiêu đề email ngắn gọn, phù hợp.
+2. Mở đầu bằng lời chào trang trọng.
+3. Giới thiệu người gửi và mục đích email.
+4. Nêu deadline hiện tại.
+5. Trình bày lý do xin gia hạn.
+6. Đề xuất thời hạn mới là ngày 23/11/2026.
+7. Thể hiện trách nhiệm và cam kết của nhóm.
+8. Gửi lời cảm ơn tới giảng viên.
+9. Kết thúc bằng chữ ký của Nguyễn Văn A.
+
+[T - TONE]
+
+- Lịch sự
+- Chuyên nghiệp
+- Tôn trọng
+- Chân thành
+- Trách nhiệm
+
+[E - EXTRAS]
+
+Yêu cầu đặc biệt:
+
+- Tổng độ dài email không vượt quá 180 từ.
+- Văn phong ngắn gọn, rõ ràng.
+- Không sử dụng ngôn ngữ suồng sã.
+- Không lặp ý.
+- Tập trung vào lý do học thuật và chất lượng sản phẩm.
+
+ĐỊNH DẠNG ĐẦU RA BẮT BUỘC
+
+Xuất kết quả bằng Markdown theo đúng cấu trúc:
+
+# Tiêu đề email
+
+Kính gửi ...
+
+[Nội dung email]
+
+Trân trọng,
+
+Nguyễn Văn A
+
+Không giải thích cách viết.
+Không nhận xét.
+Không đưa thêm ghi chú.
+Chỉ xuất ra một email hoàn chỉnh.
+
+THÔNG TIN ĐẦU VÀO:
+
+{{THÔNG_TIN_BỔ_SUNG_NẾU_CÓ}}
